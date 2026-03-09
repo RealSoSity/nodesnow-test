@@ -91,7 +91,7 @@ src/
 - **Sequelize** - Use for managing PostgreSQL Database.<br>
 - **JWT-based Authentication** - Using a Lightweight, simple basic Custom AuthGuard for demonstrate Basic JWT-based authentication. <br>
 - **Class-validator & Class-Transformer** - Automatically validate and convert incoming requests into objects, making data easier and safer to handle. <br>
-- **Swagger** - utomatically generates interactive API documentation, test endpoints and share clear data structures.<br>
+- **Swagger** - Automatically generates interactive API documentation, test endpoints and share clear data structures.<br>
 
 ---
 
