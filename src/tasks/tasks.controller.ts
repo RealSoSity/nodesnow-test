@@ -137,7 +137,7 @@ export class TasksController {
   }
 
   @ApiOperation({ summary: 'Remove specific tasks by authenticated user' })
-  @ApiResponse({ status: 200, description: 'Task removed' })
+  @ApiResponse({ status: 204, description: 'Task removed' })
   @ApiUnauthorizedResponse({
     description: 'Unauthorized',
     schema: {
@@ -159,7 +159,6 @@ export class TasksController {
     },
   })
   @HttpCode(HttpStatus.NO_CONTENT)
-  @ApiResponse({ status: 200, description: 'Deleted' })
   @Delete(':id')
   remove(@Param('id', ParseUUIDPipe) taskId: string, @Request() req) {
     return this.tasksService.remove(taskId, req.user.sub);
