@@ -46,7 +46,8 @@ SALT_ROUNDS=
 docker compose up -d
 ```
 
-Now you can use Postman check at `http://localhost:3000`.
+Now you can use Postman check at `http://localhost:3000`.<br>
+You can find the API endpoint documentation at `http://localhost:3000/api/docs`.<br>
 
 ---
 
